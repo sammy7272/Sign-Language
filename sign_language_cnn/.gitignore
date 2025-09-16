@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Experiment outputs and datasets
+results/
+logs/
+checkpoints/
+*.pt
+*.pth
+
+# Processed data artifacts (keep raw data under A1/data)
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pip / build
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/ 
